@@ -1,0 +1,18 @@
+.button{
+    background-color: orange;
+}
+
+.form{
+    margin: auto;
+    margin-top: 100px;
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: bisque;
+    padding: 20px;
+}
+
+.email{
+    border: solid 2px red;
+    width: 200px;
+}
