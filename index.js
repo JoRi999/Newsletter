@@ -13,12 +13,14 @@ let formElm = document.querySelector('#newsletter')
 
     }) 
 
-let emailInput = document.querySelector('#email')
-let email = emailInput.value    
-
+    let emailInput = document.querySelector('#email')
+   
 let check = (event) => {
 
-    if (email === "" || email.includes("@") == false){
+    let email = emailInput.value    
+
+
+    if (email === "" || !email.includes("@")){
     
         emailInput.classList.add("email")
 
@@ -31,9 +33,3 @@ let check = (event) => {
 emailInput.addEventListener("input", check)
 
 
-/*
-
-Nedaří se mi odebrat červený rámeček poté, co uživatel napíše do políčka @ . 
-
-
-*/
